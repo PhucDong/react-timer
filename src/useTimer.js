@@ -34,7 +34,7 @@ const useTimer = (ini = 0) => {
   };
 
   const resetTimer = () => {
-    setTime(0);
+    setTime({ ...time, hours: 0, minutes: 0, seconds: 0 });
     refInterval.current = null;
     active.current.disabled = false;
   };
