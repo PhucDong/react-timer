@@ -1,8 +1,10 @@
-export const formatTime = (time) => {
-  const getSeconds = "Your code here";
-  const minutes = "Your code here";
-  const getMinutes = "Your code here";
-  const getHours = "Your code here";
+const formatTime = (time) => {
+  const getSeconds = time.seconds;
+  // const minutes = "Your code here";
+  const getMinutes = time.minutes;
+  const getHours = time.hours;
 
   return `${getHours} : ${getMinutes} : ${getSeconds}`;
 };
+
+export default formatTime;

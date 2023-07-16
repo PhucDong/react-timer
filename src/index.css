@@ -76,6 +76,7 @@ p {
   border: 1px solid white;
   padding: 1em;
   transition: ease-in-out 0.3s;
+  cursor: pointer;
 }
 .button:active {
   border: 1px solid var(--text-main-color);
