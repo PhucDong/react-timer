@@ -8,9 +8,12 @@ function App() {
     <div className="App container">
       <h1>Coder Timer</h1>
       <div className="timer__wrapper">
+        {/* Display time section */}
         <div className="timer__display">
           <p>{formatTime(time)}</p>
         </div>
+
+        {/* Timer buttons */}
         <div className="button__wrapper">
           <button className="button" onClick={stopTimer}>
             Stop

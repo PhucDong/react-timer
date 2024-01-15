@@ -39,3 +39,6 @@ Using the VSC search function for "Your code here", you will see a list of all t
 | ------------------------------------------------- | ----- |
 | Missing any of the user story that are not rocket | - 5   |
 | Made rocket                                       | + 10  |
+
+## Feedback
+Hi Phúc! Lỗi lần trước mình đã fix được rồi, nhưng button stop vẫn còn nè, khi click stop -> click start thì time phải đếm tiếp chứ không bắt đầu lại 1s nhé. MÌnh fix lại nhé Phúc! Fighting!
